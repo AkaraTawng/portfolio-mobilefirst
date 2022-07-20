@@ -4,9 +4,11 @@ import '../src/main.css';
 
 function App() {
   return (
-    <div className="App">
-      <Nav/>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Nav/>
+      </div>
+    </BrowserRouter>
   );
 }
 
