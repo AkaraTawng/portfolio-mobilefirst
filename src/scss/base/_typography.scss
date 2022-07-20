@@ -8,7 +8,8 @@
             text-decoration: none;
             color: map-get($colors, "secondary");
             font-size: 1.4rem;
-            
+            // font-weight: map-get($font-weight, "bold");
+            font-family: map-get($font-family, primary);
         }
     }
 }
