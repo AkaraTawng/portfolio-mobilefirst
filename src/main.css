@@ -19,6 +19,10 @@
   text-decoration: none;
 }
 
+#nav li a:visited {
+  color: #9c8321;
+}
+
 #nav {
   background-color: #02254b;
 }

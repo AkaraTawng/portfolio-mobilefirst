@@ -12,6 +12,11 @@
 
         a {
             text-decoration: none;
+            &:visited{
+                color: map-get($colors, "secondary");
+            }
         }
     }
+
+    
 }
