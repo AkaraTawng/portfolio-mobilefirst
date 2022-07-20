@@ -1,7 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Maven+Pro&family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Shadows+Into+Light&display=swap");
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
   margin: 0px;
+}
+
+#nav li {
+  list-style-type: none;
+}
+
+#nav li a {
+  text-decoration: none;
+  color: #9c8321;
+  font-size: 1.4rem;
 }
 /*# sourceMappingURL=main.css.map */
