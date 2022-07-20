@@ -7,23 +7,17 @@ export default function Nav() {
     return <>
     <nav id="nav">
         <ul>
-            <NavLink>
-                <li>
-                <a className="internal-links" href="#">Home</a> 
-                </li>
+            <NavLink to='/' className="internal-links">
+                <li>Home</li>
             </NavLink>
-            <NavLink>
-                <li>
-                <a className="internal-links" href="#">Projects</a> 
-                </li>
+            <NavLink to='/projects' className="internal-links">
+                <li>Projects</li>
             </NavLink>
-            <NavLink>
-                <li>
-                <a className="internal-links" href="#">Contact</a> 
-                </li>
+            <NavLink to='/contact' className="internal-links">
+                <li>Contact</li>
             </NavLink>
                 <li>
-                <a  className="internal-links" href="#">Resume</a> 
+                <a href="#">Resume</a> 
                 </li>
                 <li>
                 <a href="#"><BsGithub size={35}/></a> 
