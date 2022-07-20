@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Maven+Pro&family=Shadows+Into+Light&display=swap'); //Maven Pro
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Shadows+Into+Light&display=swap'); //Shadows into light
+
+//variables
+$primary-font:  'Maven Pro', sans-serif;
+$secondary-font: 'Shadows Into Light', cursive;
+
+//maps
+$font-weight: (
+    "light": 300, 
+    "normal": 400, 
+    "semibold": 500, 
+    "bold": 700
+);
+
+$font-family: (
+    "primary": $primary-font,
+    "secondary": $secondary-font,
+);
+
+$colors: (
+    "primary": #02254b,
+    "secondary": #9c8321,
+);
+
+$breakpoints: (
+    "tablet":768px, 
+    "laptop":1280px, 
+    "desktop":1920px
+);
+
+@mixin tablet {
+    @media (min-width: map-get($breakpoints, tablet)){
+        @content
+    }
+};
+
+@mixin laptop {
+    @media (min-width: map-get($breakpoints, laptop)){
+        @content
+    }
+};
+
+@mixin desktop {
+    @media (min-width: map-get($breakpoints, desktop)){
+        @content
+    }
+};

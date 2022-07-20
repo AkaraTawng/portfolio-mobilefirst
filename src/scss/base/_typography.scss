@@ -1,0 +1,22 @@
+@import '../utilities/variables';
+
+#nav {
+    
+
+    li{
+        list-style-type: none;
+        color: map-get($colors, "secondary");
+        font-size: 1.4rem;
+        font-weight: map-get($font-weight, "bold");
+        font-family: map-get($font-family, primary);
+
+        a {
+            text-decoration: none;
+            &:visited{
+                color: map-get($colors, "secondary");
+            }
+        }
+    }
+
+    
+}
