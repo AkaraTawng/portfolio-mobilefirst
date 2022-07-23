@@ -20,10 +20,10 @@ export default function Nav() {
                 <a href="#">Resume</a> 
                 </li>
                 <li>
-                <a href="https://github.com/AkaraTawng"><BsGithub size={35}/></a> 
+                <a  target="_blank" href="https://github.com/AkaraTawng"><BsGithub size={35}/></a> 
                 </li>
                 <li>
-                <a id="linkedin" href="https://www.linkedin.com/in/christopher-chamberlain-023507205/"><BsLinkedin size={35}/></a> 
+                <a id="linkedin" target="_blank" href="https://www.linkedin.com/in/christopher-chamberlain-023507205/"><BsLinkedin size={35}/></a> 
                 </li>
         </ul>
     </nav>
