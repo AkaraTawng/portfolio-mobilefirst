@@ -1,13 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AGAA,OAAO,CAAC,sHAAI;AAEZ,OAAO,CAAC,qGAAI;AFFZ,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;EACtB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,GAAG;CACd;;ACFD,AAGI,IAHA,CAGA,EAAE,CAAA;EACE,eAAe,EAAE,IAAI;EACrB,KAAK,ECgBI,OAAO;EDfhB,SAAS,EAAE,MAAM;EACjB,WAAW,ECIP,GAAG;EDHP,WAAW,ECLH,WAAW,EAAE,UAAU;CDalC;;AAhBL,AAUQ,IAVJ,CAGA,EAAE,CAOE,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;CAIxB;;AAfT,AAYY,IAZR,CAGA,EAAE,CAOE,CAAC,AAEI,QAAQ,CAAA;EACL,KAAK,ECQJ,OAAO;CDPX;;AEfb,AAAA,IAAI,CAAA;EACA,gBAAgB,EDoBL,OAAO;CCjBrB",
-    "sources": [
-        "main.scss",
-        "scss/base/_resets.scss",
-        "scss/base/_typography.scss",
-        "scss/utilities/_variables.scss",
-        "scss/layout/_nav.scss"
-    ],
-    "names": [],
-    "file": "main.css"
-}
+{"version":3,"sources":["scss/utilities/_variables.scss","scss/base/_resets.scss","main.css","scss/base/_typography.scss","scss/layout/_nav.scss"],"names":[],"mappings":"AAAQ,8HAAA;AAEA,6GAAA;ACFR;EACI,sBAAA;EACA,UAAA;EACA,WAAA;ACGJ;;ACDI;EACI,qBAAA;EACA,cAAA;EACA,iBAAA;EACA,gBAAA;EACA,oCAAA;ADIR;ACFQ;EACI,qBAAA;ADIZ;ACHY;EACI,cAAA;ADKhB;;AEnBA;EACI,yBAAA;AFsBJ","file":"main.css"}
