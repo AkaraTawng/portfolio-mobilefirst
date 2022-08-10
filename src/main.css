@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Maven+Pro&family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&family=Shadows+Into+Light&display=swap");
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0px;
 }
@@ -14,16 +13,13 @@
   font-weight: 700;
   font-family: "Maven Pro", sans-serif;
 }
-
 #nav li a {
   text-decoration: none;
 }
-
 #nav li a:visited {
   color: #9c8321;
 }
 
 #nav {
   background-color: #02254b;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
